@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+}
+header{
+    background-color: white;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+nav h1{
+    display: flex;
+    font-size: 50px;
+    border-bottom: 6px solid red;
+    border-radius: 30px;
+    color: orange;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    box-sizing: border-box;
+}
+ ul li{
+    display: inline-block;
+    list-style: none;
+    margin-inline: 20px;
+    margin-top:15px ;
+    font-size: 20px;
+    color: white;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+    transition: .3s;
+    display: block;
+}
+ul li a:hover{
+    color: orange;
+    cursor: pointer;
+}
+.btn button{
+    margin-top: 20px;
+    margin-right: 15px;
+    height: 40px;
+    width: 90px;
+    border: solid orange;
+    background-color: white;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn button a{
+text-decoration: none;
+color: orange;
+}
+.main div{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+.head{
+    font-size: 45px;
+    margin-left: 70px; 
+    color: black;
+    font-family:sans-serif;
+    padding-top: 10px;
+    background-position: 40px;
+    font-style: normal;
+}
+ .head span{
+    font-size: 90px;
+    margin-right: 5px;
+    color: orange;
+ }
+.img  img{
+    display: flex;
+    float: right;
+    height: 550px;
+    width: 650px;
+    margin-top: -39%;
+    margin-right: 7%
+    justify-content: right;
+}
+footer{
+      background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 2px 10px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+
+
